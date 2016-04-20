@@ -1,0 +1,32 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+html{
+  background-color: red;
+  color: white;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+#listed-heroes{
+  div{
+    display: inline-block;
+    margin: 2%;
+    align-items: center;
+  }
+}
+#listedhero{
+  display: inline-block;
+}
+
+.namestyling{
+  font-size: 20px;
+
+}
+.imagestyling{
+  width: 200px;
+  height: 200px;
+}
